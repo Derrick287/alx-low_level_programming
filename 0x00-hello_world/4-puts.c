@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 /*
  *   Displays a text using puts
