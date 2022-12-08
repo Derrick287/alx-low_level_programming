@@ -1,11 +1,17 @@
-#include <stdio.h>
+nclude <stdio.h>
 
-/*
- *   Displays a text using puts
- *    
- */
+/**
+ *  * main - Entry point
+ *   * Displays a text using puts
+ *    * Return: Always 0 (Success)
+ *     */
 int main(void)
 {
 	    puts("\"Programming is like building a multilingual puzzle");
 	        return (0);
 }
+
+
+
+
+
