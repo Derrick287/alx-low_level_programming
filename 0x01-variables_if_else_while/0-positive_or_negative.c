@@ -2,18 +2,18 @@
 #include <time.h>
 #include <stdio.h>
 
-
 /**
- * main - Entry point
+ *main - Entry point
  *
- * print state of n  zero, positive or negative
+ *print state of n zero, positive or negative
  *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
