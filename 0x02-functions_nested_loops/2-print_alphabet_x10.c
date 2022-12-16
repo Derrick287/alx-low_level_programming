@@ -3,13 +3,12 @@
 /**
  * main - check the code.
  *
- * Return: Always 0.
+ * Return: Always zero
  */
 
 void print_alphabet_x10(void)
 {
-	int i;
-	int j;
+	int i, j;
 
 	for (j = 0; j <= 10; j++)
 	{
@@ -17,7 +16,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(i);
 		}
-		putchar('n');
+		putchar('\n');
 	}
 
 	return (0);
