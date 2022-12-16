@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Displays _putchar
- * is written by mbah
+ * Derrick
  * Return: 0
  */
 
