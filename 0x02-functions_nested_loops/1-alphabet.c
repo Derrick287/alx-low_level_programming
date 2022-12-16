@@ -10,6 +10,7 @@ void print_alphabet(void)
 {
 	int i;
 
+	/* Function to print Alphabet  */
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		_putchar(i);
