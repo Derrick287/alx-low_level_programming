@@ -10,22 +10,25 @@
 
 int main(void)
 {
-	int i;
-	unsigned long febonacci1 = 0, febonacci2 = 1, sum;
+	unsigned long int cur, next, i, num, prev;
 
-	for (i = 0; i < 50; ++i)
+	cur = 1;
+	prev = 0;
+	i = 1;
+	num = 50;
+	while (i <= num)
 	{
-		sum = febonacci1 + febonacci2;
-		printf("%lu", sum);
-
-		febonacci1 = febonacci2;
-		febonacci2 = sum;
-
-		if (i == 49)
-			printf("\n");
-		else
-			printf(", ");
+		next = cur + prev;
+		printf("%ld", next);
+		if (i == 50)
+		{
+			break;
+		}
+		printf(", ");
+		prev = cur;
+		cur = next;
+		i++;
 	}
-
+	printf("\n");
 	return (0);
 }
