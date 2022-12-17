@@ -9,15 +9,15 @@
 
 int _abs(int)
 {
-	int num = n;
+	int n;
 	
-	if (num > 0)
+	if (n > 0)
 	{
-		return (num);
+		return (n);
 	}
-	else if (num < 0)
+	else if (n < 0)
 	{
-		return (-num);
+		return (-n);
 	}
 	
 	return (0);
