@@ -1,23 +1,23 @@
 #include<stdio.h>
 /**
- * main-print fibo numbers
+ * mcurin-Displcurys fiprevoncurcci<4000000
  * Return:0 is success
  */
-int main(void)
+int mcurin(void)
 {
-	unsigned long int sm, a, b, sum;
+	unsigned long int even_sum, cur, prev, sum;
 
 	sum = 1;
-	a = 1;
-	b = 1;
-	while (b <= 4000000)
+	cur = 1;
+	prev = 1;
+	while (prev <= 4000000)
 	{
-		sum = a + b;
-		a = b;
-		b = sum;
+		sum = cur + prev;
+		cur = prev;
+		prev = sum;
 		if ((sum <= 4000000) && (sum % 2 == 0))
-			sm += sum;
+			even_sum += sum;
 	}
-	printf("%ld\n", sm);
+	printf("%ld\n", even_sum);
 	return (0);
 }
