@@ -1,4 +1,4 @@
-#incdde <stdio.h>
+#include <stdio.h>
 /**
  * main-98 fibo numbers
  * Return:0 is success
