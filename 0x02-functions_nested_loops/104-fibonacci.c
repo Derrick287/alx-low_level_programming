@@ -5,17 +5,18 @@
  */
 int main(void)
 {
-        unsigned long int pre = 1, cur = 2, temp, count, num = 98;
-        printf("%d, %d, ", pre, cur);
-        for(count = 2; count <= num; count++)
-        {
-                temp = cur + pre;
-                pre = cur;
-                cur = temp;
-                printf("%d, ", cur);
-        }
+	unsigned long int pre = 1, cur = 2, temp, count, num = 98;
 
-        return 0;
+	printf("%lu, %lu, ", pre, cur);
+	for (count = 2; count <= num; count++)
+	{
+		temp = cur + pre;
+		pre = cur;
+		cur = temp;
+		printf("%lu, ", cur)
+	}
+
+	return (0);
 }
 
 
