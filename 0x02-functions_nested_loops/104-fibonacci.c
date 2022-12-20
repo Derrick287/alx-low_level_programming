@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-        unsigned int pre = 1, cur = 2, temp, count, num = 98;
+        unsigned long int pre = 1, cur = 2, temp, count, num = 98;
         printf("%d, %d, ", pre, cur);
         for(count = 2; count <= num; count++)
         {
