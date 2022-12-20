@@ -13,7 +13,7 @@ int main(void)
 		temp = cur + pre;
 		pre = cur;
 		cur = temp;
-		printf("%d, ", cur)
+		printf("%d, ", cur);
 	}
 
 	return (0);
