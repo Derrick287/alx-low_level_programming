@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for ALX School students.
- *
+ * _strdup - returns a pointer to a newly allocated space in memory.
+ * @str: string.
  * Return: Always 0.
  */
 
@@ -16,7 +16,8 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	for (i = 0; str[i] != '\0'; i++);
+	for (i = 0; str[i] != '\0'; i++)
+		;
 
 	strout = (char *)malloc(sizeof(char) * (i + 1));
 
